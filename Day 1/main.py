@@ -1,21 +1,11 @@
-# print("Hello World")
-# print("This is a 'Multi-line' comment")
-# print("Hello World!\nHello World!")
-# print("Hello " + "Aaron")
+print("Welcome! Let's see your band name!\n")
 
-# Input allows us to get a response back from the user.
-# input("What is your name?\n")
-# Reads the input and asks the user the input first,
-# following with replacing the input method with your name.
-# print("Hello, " + input("What is your name?\n"))
+city_name = input("What city did you grow up in?\n")
+pet_name = input("What is the name of your pet?\n")
 
-# Python Variables
-# name = "Aaron"
-# print(name)
+print("Your band name is! " + city_name + " " + pet_name)
 
-first_name = input("What is your first name?\n")
-length = len(first_name)
-print(length)
-print(first_name)
+
+
 
 
